@@ -1,0 +1,22 @@
+{
+  "name": "yacht-construction-scoping",
+  "version": "1.0.0",
+  "description": "Superyacht construction scoping and lead time estimation agent.",
+  "skill_file": "SKILL.md",
+  "domain": "superyacht-construction",
+  "workflows": ["scoping-session", "knowledge-update-session"],
+  "input_formats": ["pdf", "csv", "xlsx", "txt", "md"],
+  "output_unit": "hours-per-location",
+  "knowledge_base": {
+    "repo": "https://github.com/YOUR-USERNAME/yacht-scope-agent",
+    "branch": "main",
+    "files": [
+      "AGENT_CONFIG.md",
+      "WORK_PACKAGE_LIBRARY.md",
+      "LEAD_TIME_EXPERIENCE.md",
+      "UPDATE_PROCEDURE.md"
+    ]
+  },
+  "github_write_mode": false,
+  "notes": "Replace YOUR-USERNAME in SKILL.md and this file with your actual GitHub username."
+}
